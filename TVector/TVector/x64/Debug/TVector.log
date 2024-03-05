@@ -1,0 +1,67 @@
+﻿  Source.cpp
+C:\Users\harin\source\repos\TVector\TVector\Source.cpp(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\harin\source\repos\TVector\TVector\TVector.h(39,14): warning C4101: 'x': unreferenced local variable
+C:\Users\harin\source\repos\TVector\TVector\TVector.h(31,1): message : while compiling class template member function 'TVector<T>::TVector(int,T *)'
+          with
+          [
+              T=double
+          ]
+C:\Users\harin\source\repos\TVector\TVector\Source.cpp(162,18): message : see reference to function template instantiation 'TVector<T>::TVector(int,T *)' being compiled
+          with
+          [
+              T=double
+          ]
+C:\Users\harin\source\repos\TVector\TVector\Source.cpp(136,10): message : see reference to class template instantiation 'TVector<T>' being compiled
+          with
+          [
+              T=double
+          ]
+C:\Users\harin\source\repos\TVector\TVector\TMatrix.h(151,32): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\harin\source\repos\TVector\TVector\TMatrix.h(149,1): message : while compiling class template member function 'std::ostream &operator <<(std::ostream &,const TMatrix<T> &)'
+          with
+          [
+              T=double
+          ]
+C:\Users\harin\source\repos\TVector\TVector\Source.cpp(154,17): message : see reference to function template instantiation 'std::ostream &operator <<(std::ostream &,const TMatrix<T> &)' being compiled
+          with
+          [
+              T=double
+          ]
+C:\Users\harin\source\repos\TVector\TVector\Source.cpp(130,13): message : see reference to class template instantiation 'TMatrix<T>' being compiled
+          with
+          [
+              T=double
+          ]
+C:\Users\harin\source\repos\TVector\TVector\TUppTrMatrix.h(183,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\harin\source\repos\TVector\TVector\TUppTrMatrix.h(175,1): message : while compiling class template member function 'TUppTrMatrix<double>::operator TMatrix<T>(void)'
+          with
+          [
+              T=double
+          ]
+C:\Users\harin\source\repos\TVector\TVector\Source.cpp(153,18): message : see reference to function template instantiation 'TUppTrMatrix<double>::operator TMatrix<T>(void)' being compiled
+          with
+          [
+              T=double
+          ]
+C:\Users\harin\source\repos\TVector\TVector\Source.cpp(127,26): message : see reference to class template instantiation 'TUppTrMatrix<double>' being compiled
+C:\Users\harin\source\repos\TVector\TVector\TUppTrMatrix.h(165,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\harin\source\repos\TVector\TVector\TUppTrMatrix.h(156,1): message : while compiling class template member function 'TVector<T> TUppTrMatrix<T>::operator *(const TVector<T> &)'
+          with
+          [
+              T=double
+          ]
+C:\Users\harin\source\repos\TVector\TVector\Source.cpp(163,12): message : see reference to function template instantiation 'TVector<T> TUppTrMatrix<T>::operator *(const TVector<T> &)' being compiled
+          with
+          [
+              T=double
+          ]
+C:\Users\harin\source\repos\TVector\TVector\TUppTrMatrix.h(94,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\harin\source\repos\TVector\TVector\TUppTrMatrix.h(90,1): message : while compiling class template member function 'std::istream &operator >>(std::istream &,TUppTrMatrix<double> &)'
+C:\Users\harin\source\repos\TVector\TVector\Source.cpp(131,11): message : see reference to function template instantiation 'std::istream &operator >>(std::istream &,TUppTrMatrix<double> &)' being compiled
+C:\Users\harin\source\repos\TVector\TVector\TUppTrMatrix.h(83,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\harin\source\repos\TVector\TVector\TUppTrMatrix.h(70,1): message : while compiling class template member function 'std::ostream &operator <<(std::ostream &,const TUppTrMatrix<double> &)'
+C:\Users\harin\source\repos\TVector\TVector\Source.cpp(130,19): message : see reference to function template instantiation 'std::ostream &operator <<(std::ostream &,const TUppTrMatrix<double> &)' being compiled
+C:\Users\harin\source\repos\TVector\TVector\TUppTrMatrix.h(47,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\harin\source\repos\TVector\TVector\TUppTrMatrix.h(32,1): message : while compiling class template member function 'TUppTrMatrix<double> TUppTrMatrix<double>::operator *(const TUppTrMatrix<double> &)'
+C:\Users\harin\source\repos\TVector\TVector\Source.cpp(141,6): message : see reference to function template instantiation 'TUppTrMatrix<double> TUppTrMatrix<double>::operator *(const TUppTrMatrix<double> &)' being compiled
+  TVector.vcxproj -> C:\Users\harin\source\repos\TVector\x64\Debug\TVector.exe
